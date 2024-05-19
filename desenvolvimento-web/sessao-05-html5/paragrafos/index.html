@@ -14,7 +14,8 @@
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel diam congue, varius est sed, consectetur augue. Proin rhoncus sed tellus ac iaculis. In in neque ut odio varius eleifend. Pellentesque nec dui vehicula, condimentum libero consequat, tempus lorem. Ut dui metus, eleifend tempus urna id, malesuada ultricies nisi. Praesent ultricies massa quis ultricies lobortis. Suspendisse aliquam consequat diam a euismod. Nullam erat massa, laoreet ac porta eu, ornare vel nunc. Pellentesque nec pharetra nisl. Suspendisse iaculis eros eu quam fermentum, sed tempor elit varius. Mauris sit amet dolor luctus, lobortis orci sit amet, volutpat felis.
     </p>
-    <!-- A tag "p" cria apenas um espaçamento, antes dela mesma -->
+    <!-- A tag "p" cria apenas um espaçamento, antes dela mesma.
+    O navegador não permite que espaços extras como espaços ou quebras de linhas não sejam respeitados com o uso da tag "p". Para isso, é necessário usar a tag "pre" -->
 
     <hr>
     <!-- Cria uma linha -->
@@ -25,6 +26,40 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel diam congue, varius est sed, consectetur augue. Proin rhoncus sed tellus ac iaculis. In in neque ut odio varius eleifend. Pellentesque nec dui vehicula, condimentum libero consequat, tempus lorem. Ut dui metus, eleifend tempus urna id, malesuada ultricies nisi. Praesent ultricies massa quis ultricies lobortis. Suspendisse aliquam consequat diam a euismod. Nullam erat massa, laoreet ac porta eu, ornare vel nunc. Pellentesque nec pharetra nisl. Suspendisse iaculis eros eu quam fermentum, sed tempor elit varius. Mauris sit amet dolor luctus, lobortis orci sit amet, volutpat felis.
     </p>
 
+    <hr>
+
+    <h2>Exemplo de poema com uso da tag "p"</h2>
+
+    <p>
+      A tag "pre" respeita a formatação do texto dentro da tag, incluindo espaçamentos e identações em relação aos limites da página. Assim, inicialmente ela alinhará o seu conteúdo de acordo com a identação de onde o texto for inserido em relação ao limite da página. Assim, para alinhar o texto à margem esquerda é necessário que toda a identação do texto seja removida, alinhando o texto à esquerda.
+    </p>
+
+    <h3>Poema com uso da tag "p" </h3>
+    <p>
+      Esses, que aí estão
+      Atrapalhando o meu caminho
+      Eles passarão
+      Eu passarinho!
+    </p>
+
+    <h3>Poema com uso da tag "pre"</h3>
+    <pre>    
+      Esses, que aí estão
+      Atrapalhando o meu caminho
+      Eles passarão
+      Eu passarinho!
+    </pre>
+    <p>
+      Repare que o texto acima encapsulado pela tag "pre" respeitou os 8 espaços de identação existentes entre a margem da página e o início do texto dentro da tag "pre".
+    </p>
+    <pre>
+            Esses, que aí estão
+      Atrapalhando o meu caminho
+          Eles passarão
+              Eu passarinho!
+    </pre>
+
+    <!-- Mais estudos sobre parágrafos: https://www.w3schools.com/html/html_paragraphs.asp -->
   </body>
 
 </html>
