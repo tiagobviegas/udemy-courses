@@ -1,0 +1,19 @@
+p {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+#destaque {
+  font-size: 30px;
+}
+
+.diferentes {
+  background-color: aquamarine;
+}
+
+.lista {
+  text-decoration: underline;
+}
